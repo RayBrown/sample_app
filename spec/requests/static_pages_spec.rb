@@ -2,6 +2,8 @@ require 'spec_helper'
 
 describe "Static Pages" do
 
+  let(:base_title) { 'Ruby on Rails Tutorial Sample App' }
+
   describe "Home Page" do
 
     it "should have the content 'Sample App'" do
